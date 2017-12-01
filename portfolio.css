@@ -1,0 +1,231 @@
+h1 {
+  font-size: 4.5em;
+  text-align: center;
+  font-family: dancing script;
+  width: 35%;
+  margin: 240px auto;
+  padding: 20px 20px 15px 20px;
+
+}
+.bloem {
+  position: absolute;
+  width: 11%;
+  left: -18px;
+  top: -5px;
+  position: fixed;
+}
+.bloem2 {
+  position: absolute;
+  width: 9%;
+  right: -18px;
+  bottom: -5px;
+  transform: scaleX(-1);
+  position: fixed;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  text-align: center;
+  font-family: quicksand;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 0.95em;
+}
+a {
+  padding: 0px 20px 0px 20px;
+  color: black;
+}
+a:hover {
+  color: #224770;
+  text-decoration: underline;
+}
+.logo {
+  font-family: dancing script;
+  font-size: 2em;
+}
+.logo:hover{
+  text-decoration: none;
+}
+
+#gebied1 {
+  display: grid;
+  width: 30%;
+  margin: auto;
+  margin-top: -230px;
+  grid-template-columns: repeat(3, 42.5% 15% 42.5%);
+  grid-template-rows: repeat(3, 42.5% 15% 42.5%);
+  grid-column-gap: 15px;
+}
+.streep1 {
+  grid-column: 1;
+  grid-row: 1;
+  border-bottom: 2px solid black;
+}
+.streep2{
+  grid-column: 3;
+  grid-row: 2;
+  border-top: 2px solid black;
+}
+.foto {
+  grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+.foto img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.content{
+  width: 70%;
+  margin: auto;
+
+}
+h2{
+text-align: center;
+font-family: quicksand;
+font-size: 1.3em;
+padding-bottom: 30px;
+padding-top: 10px;
+}
+.content p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: quicksand;
+  line-height: 20px;
+}
+.omgebied1 {
+  margin-top: 50px;
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 33% 34% 33%);
+  grid-template-rows: repeat(3, 33% 34% 33%);
+
+}
+h3 {
+  text-align: center;
+  font-family: quicksand;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+.opl {
+  grid-column: 1;
+  grid-row: 1;
+}
+.ski {
+  grid-column: 2;
+  grid-row: 1;
+}
+.ste {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.oplimg{
+  grid-column: 1;
+  grid-row: 2;
+  width: 80%;
+  margin: auto;
+
+}
+.skiimg{
+  grid-column: 2;
+  grid-row: 2;
+  width: 80%;
+  margin: auto;
+
+}
+.steimg {
+  grid-column: 3;
+  grid-row: 2;
+  width: 80%;
+  margin: auto;
+}
+
+.projecten {
+  width: 60%;
+  margin: auto;
+}
+
+.container {
+    position: relative;
+    width: 48%;
+    margin: auto;
+    margin: 1% 1% 1% 1%;
+}
+.links{
+  float: left;
+}
+.rechts{
+  float: right;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4d4d4d;
+  color: white;
+  font-size: 14px;
+  padding: 16px 32px;
+  font-family: quicksand;
+  text-align: center;
+}
+.icons{
+  width: 30%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 25% 25% 25% 25%);
+}
+.mail{
+  grid-column: 1;
+  margin: auto;
+  margin-top: 200px;
+}
+.fb{
+  grid-column: 2;
+  margin: auto;
+  margin-top: 200px;
+}
+.insta {
+  grid-column: 3;
+  margin: auto;
+  margin-top: 200px;
+}
+.twitter{
+  grid-column: 4;
+  margin: auto;
+  margin-top: 200px;
+}
